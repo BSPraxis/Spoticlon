@@ -1,0 +1,43 @@
+.header{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar{
+  background-color: rgba(34,35,38,.5);
+  font-family: Montserrat, sans-serif;
+}
+
+.logo-spotify{
+  width: 120px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: #1db954;
+}
+
+#text-carousel {
+  border: 1px solid green;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  background: url(fondospotify.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.text-slider{
+  border: 1px solid blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#features{
+  border: 1px solid red;
+}
