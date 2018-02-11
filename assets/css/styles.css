@@ -26,18 +26,44 @@
   width: 100%;
   height: auto;
   padding: 50px;
-  background: url(fondospotify.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: url(//images/assets/fondospotify.jpg);
+  background-color: red;
 }
 
 .text-slider{
   border: 1px solid blue;
   color: white;
-  display: flex;
+}
+
+#botones{
+  color: #FFFFFF;
+	display: flex;
   justify-content: center;
 }
 
-#features{
+.botonDown{
+  border: 2px solid #1db954;
+  border-radius: 20px;
+  background-color: #1db954;
+}
+
+.botonSusc{
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+#whats-new{
   border: 1px solid red;
+}
+
+#features{
+  background-image: url(fondospotify.jpg);
+}
+
+#devices{
+  background-color: white;
+}
+
+#cost{
+  background-color: red;
 }
