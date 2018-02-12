@@ -52,6 +52,10 @@
   border-radius: 20px;
 }
 
+.features{
+  width: 100%;
+}
+
 #whats-new{
   border: 1px solid red;
 }
@@ -66,4 +70,12 @@
 
 #cost{
   background-color: red;
+}
+
+.cost-cards{
+  width: 40%;
+  display: flex;
+}
+.footer{
+  border: 1px solid red;
 }
