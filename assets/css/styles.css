@@ -64,6 +64,13 @@
 }
 
 #whats-new{
+  font-size: 120%;
+}
+
+.quadalbum{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 #features{
