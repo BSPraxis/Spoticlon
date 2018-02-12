@@ -6,7 +6,6 @@
 
 .navbar{
   background-color: rgba(34,35,38,.5);
-  font-family: Montserrat, sans-serif;
 }
 
 .logo-spotify{
@@ -22,21 +21,19 @@
 }
 
 #text-carousel {
-  border: 1px solid green;
   width: 100%;
   height: auto;
   padding: 50px;
-  background: url(//images/assets/fondospotify.jpg);
-  background-color: red;
+  background: url(../images/fondospotify.jpg);
 }
 
 .text-slider{
-  border: 1px solid blue;
   color: white;
 }
 
 #botones{
   color: #FFFFFF;
+  font-size: 80%;
 	display: flex;
   justify-content: center;
 }
@@ -47,9 +44,19 @@
   background-color: #1db954;
 }
 
+.botonDown:hover{
+  border: 2px solid #1ed760;
+  background-color: #1ed760;
+}
+
 .botonSusc{
-  border: 2px solid white;
+  border: 2px solid #FFFFFF;
   border-radius: 20px;
+}
+
+.botonSusc:hover{
+  color: black;
+  background-color: #FFFFFF;
 }
 
 .features{
@@ -57,11 +64,10 @@
 }
 
 #whats-new{
-  border: 1px solid red;
 }
 
 #features{
-  background-image: url(fondospotify.jpg);
+  background-image: url(../images/fondospotify.jpg);
 }
 
 #devices{
@@ -69,13 +75,41 @@
 }
 
 #cost{
-  background-color: red;
+  background-image: url(../images/fondospotify.jpg);
 }
 
 .cost-cards{
-  width: 40%;
+  width: 100%;
   display: flex;
 }
-.footer{
-  border: 1px solid red;
+
+.card-header{
+  background-color: #FFFFFF;
+}
+
+
+
+.checks {
+  list-style: none;
+}
+
+.checks li:before {
+  content: '✓   ';
+}
+
+.btn{
+  border: 2px solid #1db954;
+  border-radius: 20px;
+  background-color: #1db954;
+}
+
+.btn:hover{
+  border: 2px solid #1ed760;
+  background-color: #1ed760;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-size: 75%;
 }
